@@ -1,4 +1,4 @@
-package pl.sebcel.aa;
+package pl.sebcel.aa.gui;
 
 import javax.microedition.lcdui.List;
 
