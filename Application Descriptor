@@ -1,6 +1,7 @@
-MIDlet-Jar-URL: ApetiteAwerness.jar
-MIDlet-Name: ApetiteAwerness MIDlet Suite
-MIDlet-Vendor: Sebastian Celejewski
 MIDlet-Version: 1.0.0
+MIDlet-Vendor: Sebastian Celejewski
+MIDlet-Jar-URL: ApetiteAwerness.jar
 MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: AAMonitoringForm,,pl.sebcel.aa.AAMonitoringForm
 MicroEdition-Profile: MIDP-2.1
+MIDlet-Name: Apetite Awerness
