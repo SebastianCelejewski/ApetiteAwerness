@@ -1,7 +1,9 @@
 
 /.mtj.tmp/
+
 /.settings/
 /.bin
+/deployed/
 .classpath
 .mtj
 .project
