@@ -4,13 +4,13 @@ import java.util.Date;
 
 public class Meal {
 
-	private Date date;
-	private int hungerLevelBeforeMeal;
-	private int hungerLevelAfterMeal;
-	private int feel;
-	private boolean foodAvailable;
-	private boolean cdToStart;
-	private boolean cdToFinish;
+	private Date date = new Date();
+	private int hungerLevelBeforeMeal = 4;
+	private int hungerLevelAfterMeal = 4;
+	private int feel = Feel.NEUTRAL;
+	private boolean foodAvailable = false;
+	private boolean cdToStart = false;
+	private boolean cdToFinish = false;
 
 	public Date getDate() {
 		return date;

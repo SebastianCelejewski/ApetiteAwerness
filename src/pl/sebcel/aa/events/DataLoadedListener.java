@@ -1,9 +1,9 @@
 package pl.sebcel.aa.events;
 
-import pl.sebcel.aa.model.Meal;
+import pl.sebcel.aa.model.Meals;
 
 public interface DataLoadedListener {
 	
-	void onDataLoaded(Meal[] meals);
+	void onDataLoaded(Meals meals);
 
 }
