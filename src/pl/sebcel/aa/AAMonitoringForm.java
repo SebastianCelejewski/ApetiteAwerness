@@ -35,8 +35,6 @@ public class AAMonitoringForm extends MIDlet implements CommandListener {
 		meals = storage.loadData();
 		mealListView.setData(meals);
 
-		Display.getDisplay(this).setCurrent(mealListView);
-
 		addCommand = new Command("Add", Command.ITEM, 1);
 		acceptCommand = new Command("Accept", Command.OK, 1);
 		cancelCommand = new Command("Cancel", Command.CANCEL, 1);
@@ -47,6 +45,8 @@ public class AAMonitoringForm extends MIDlet implements CommandListener {
 		editMealView.addCommand(acceptCommand);
 		editMealView.addCommand(cancelCommand);
 		editMealView.setCommandListener(this);
+
+		Display.getDisplay(this).setCurrent(mealListView);
 	}
 
 	public void commandAction(Command c, Displayable d) {
@@ -86,10 +86,10 @@ public class AAMonitoringForm extends MIDlet implements CommandListener {
 	protected void startApp() throws MIDletStateChangeException {
 	}
 
-	protected void destroyApp(boolean unconditional) throws MIDletStateChangeException {
+	protected void pauseApp() {
 	}
 
-	protected void pauseApp() {
+	protected void destroyApp(boolean unconditional) throws MIDletStateChangeException {
 	}
 
 }
